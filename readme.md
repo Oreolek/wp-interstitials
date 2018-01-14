@@ -52,6 +52,7 @@ http://www.youtube.com/watch?v=A9kV6YYnoII
 #### 2.0
 * Upgraded for the latest Wordpress
 * Removed some of the limits and Pro ads
+* Ads are shown only once per day per IP
 
 #### 1.5
 
