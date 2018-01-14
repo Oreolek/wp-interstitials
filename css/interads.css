@@ -1,0 +1,191 @@
+@font-face {
+	font-family: 'ujiicons';
+	src:url('../assets/fonts/ujiicons.eot?jjz3rv');
+	src:url('../assets/fonts/ujiicons.eot?#iefixjjz3rv') format('embedded-opentype'),
+		url('../assets/fonts/ujiicons.woff?jjz3rv') format('woff'),
+		url('../assets/fonts/ujiicons.ttf?jjz3rv') format('truetype'),
+		url('../assets/fonts/ujiicons.svg?jjz3rv#ujiicons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="ujicon-"], [class*=" ujicon-"] {
+	font-family: 'ujiicons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+    font-size: 1.4em;
+    position: relative;
+    top: 3px;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.ujicon-x1:before {
+	content: "\e600";
+}
+.ujicon-x4:before {
+	content: "\e601";
+}
+.ujicon-x3:before {
+	content: "\e602";
+}
+.ujicon-x2:before {
+	content: "\e603";
+}
+.ujicon-x5:before {
+	content: "\e604";
+}
+
+
+
+#interads{
+	background: #fff;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 9999999999;
+	top:0px;
+	left: 0px;
+	display: block;
+	overflow: hidden;
+}
+#interads-bar{
+	width: 100%;
+	background: #000;
+	padding: 10px;
+	overflow: auto;
+	color: #fff;
+	z-index: 999999999;
+	-webkit-box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 1px 5px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 1px 5px rgba(50, 50, 50, 0.75);
+}
+#interads-bar div{
+	line-height: 26px;
+	display: inline;
+    direction: initial;
+}
+.interads{
+	margin: 0;
+	overflow: hidden;
+	display: block;
+	font-size: 12px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+#interads-tit{
+	float: left;
+	width: 55%;
+	margin-right: 2%;
+	font-size: 18px;
+    overflow: auto;
+    padding-bottom: 3px;
+}
+.interads-close{
+	float: right;
+	width: 40%;
+	text-align: right;
+	margin-right: 3%;
+}
+.interads-close a{
+	display: inline-block;
+	color: #fff;
+	padding-left: 20px;
+	text-decoration: none;	
+	
+}
+.interads-close a:hover{
+	text-decoration: none;	
+}
+
+.iads-noclose{
+    margin-right: 1%;
+}
+
+#inter-mess{
+	padding: 0 20px 0 0px;
+	border-right: 1px solid #fff;
+}
+#interads-cnt{
+	margin: 20px auto 0 auto;
+	height: 100%;
+}
+.interads-kkcount-down{
+	margin: 0 2px;
+}
+.interads-kkcount-down .kkc-godz-text,
+.interads-kkcount-down .kkc-godz{
+	display: none;
+}
+/*-------------------------------------------------------------------------------------------*/
+/* AD CONTENT STYLES */
+/*-------------------------------------------------------------------------------------------*/
+
+
+#interads-cnt h1,
+#interads-cnt h2,
+#interads-cnt h3,
+#interads-cnt h4,
+#interads-cnt h5,
+#interads-cnt h6 {
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  color: #363230;
+  margin: 0 0 .618em;
+  font-weight: normal;
+}
+#interads-cnt h1 a,
+#interads-cnt h2 a,
+#interads-cnt h3 a,
+#interads-cnt h4 a,
+#interads-cnt h5 a,
+#interads-cnt h6 a {
+  font-weight: normal;
+}
+#interads-cnt h1 {
+  font-size: 2.244em;
+  line-height: 1.387em;
+}
+#interads-cnt h2 {
+  font-size: 1.618em;
+  line-height: 1.387em;
+}
+#interads-cnt h3 {
+  font-size: 1.387em;
+}
+#interads-cnt h4 {
+  font-size: 1em;
+}
+#interads-cnt h5 {
+  font-size: 1em;
+}
+#interads-cnt h6 {
+  font-size: 0.857em;
+}
+#interads-cnt .alignleft{
+  float: left;
+  margin: 0 1.618em 1em 0;
+}
+#interads-cnt .alignright {
+  float: right;
+  margin: 0 0 1em 1.618em;
+}
+#interads-cnt .aligncenter {
+  display: block;
+  text-align: center;
+  margin: 0 auto 1.618em;
+}
+#interads-cnt p {
+  font-size: 15px;
+  line-height: 1.7em;
+  margin-bottom: 10px;
+}
+
+#interads_frame{
+	height: 100%;
+	width: 100%;
+}
